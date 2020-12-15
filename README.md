@@ -40,7 +40,7 @@
  ## Como consumir as informações que foram compartilhadas pelo Module Federation?
  
  - Primeiro tem que definir o module que vai ser consumido no `remotes` nas configurações do `webpack.config.js` que ja foi explicado anteriormente. Agora
- voce entra no arquivo que você deseja consumir o module e usa a função. 
+ voce entra no arquivo que você deseja consumir o module e importe o module com a função desejada. 
  
   Exemplo do `webpack.config.js`: 
   
