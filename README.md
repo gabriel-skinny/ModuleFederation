@@ -12,9 +12,9 @@
   
 ## :mortar_board: Como compartilhar informações para outras aplicações?
 
-  - Todo micro-frontend tem suas proprias dependencias e seu arquivo `webpack.config.js`, e nesse arquivos que vão ser definidos quais informações vão ser compartilhadas e recebidas de outros micro-frontends.
+  - Todo micro-frontend tem suas proprias dependencias e seu arquivo `webpack.config.js`, e nesse arquivo que vão ser definidos quais informações vão ser compartilhadas e recebidas de outros micro-frontends.
   
-  - Para compartilhas informações dentro desse arquivos primeiro voce ira definir um array de dependencias chamado plugins, depois você tem que extrair o moduleFederationplugin. Apos isso voce pode instanciar a classe moduleFederationplugin e passar as configurações dejesadas como argumentos.
+  - Para compartilhar informações dentro desse arquivo primeiro você ira definir um array de dependências chamado plugins, depois você tem que importa a classe moduleFederationplugin. Apos isso voce pode instanciar o moduleFederationplugin e passar as configurações dejesadas como argumentos.
   
   Exemplo: 
     
@@ -40,7 +40,7 @@
  ## Como consumir as informações que foram compartilhadas pelo Module Federation?
  
  - Primeiro tem que definir o module que vai ser consumido no `remotes` nas configurações do `webpack.config.js` que ja foi explicado anteriormente. Agora
- voce entra no arquivo que você deseja consumir o module e importe o module com a função desejada. 
+ você entra no arquivo que você deseja consumir o module e importe o module com a função desejada. 
  
   Exemplo do `webpack.config.js`: 
   
