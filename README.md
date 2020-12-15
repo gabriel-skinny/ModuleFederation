@@ -44,5 +44,9 @@
  
   Exemplo do `webpack.config.js`: 
   
+   <img src="ExRemote.png">
+   
+  Exemplo consumindo o modulo: 
   
+   <img src="ExConsu.png">
   
