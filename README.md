@@ -14,7 +14,7 @@
 
   - Todo micro-frontend tem suas proprias dependencias e seu arquivo `webpack.config.js`, e nesse arquivos que vão ser definidos em quais informações vão ser compartilhadas e recebidas de outros micro-frontends.
   
-  - Para compartilhas informações dentro desse arquivos você tem que extrair o moduleFederationplugin. Apos isso voce pode istanciar a classe moduleFederationplugin e passar as configurações dejesadas como argumentos.
+  - Para compartilhas informações dentro desse arquivos primeiro voce ira definir um array de dependencias chamado plugins, depois você tem que extrair o moduleFederationplugin. Apos isso voce pode instanciar a classe moduleFederationplugin e passar as configurações dejesadas como argumentos.
   
   Exemplo: 
     
