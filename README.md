@@ -4,4 +4,4 @@
 
 ## Oque é module federation
 
-- São modulos separados que formam uma unica aplicação, podem ser chamados também de micro-frontends.
+- É um jeito de compartilhar aplicações entre si de uma forma que a aplicação final não tem todas as dependêcias, cada uma das pequenas apicações tem suas proprias dependêcias. Essas aplicações tambem são conhecidas como micro-frontends.
