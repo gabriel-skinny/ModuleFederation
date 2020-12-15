@@ -1,10 +1,10 @@
 # :computer: ModuleFederation
   
-  Usando ModuleFedaration para compartilhar micro-frontends entre si. 
+  Usando ModuleFedaration para compartilhar micro-frontends entre si . 
 
 ## :question: O que é module federation?
 
-- É um jeito de compartilhar informações entre aplicações de uma forma que cada a tem todas suas proprias dependêcias. Essas aplicações tambem são conhecidas como micro-frontends.
+- É um jeito de compartilhar informações entre aplicações, na qual cada aplicação pode exportar a funcionalidade que deseja consumir ou compartilhar. Essas aplicações tambem são conhecidas como micro-frontends.
 
 ## :information_source: Sobre o projeto
 
