@@ -1,6 +1,6 @@
 # :computer: ModuleFederation
   
-  Usando ModuleFedaration para compartilhar micro-frontends entre si . 
+  Usando ModuleFedaration para compartilhar micro-frontends entre si e fazer uma aplicação completa. 
 
 ## :question: O que é module federation?
 
