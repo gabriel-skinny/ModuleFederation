@@ -20,8 +20,25 @@
     
    <img src="./empFederation.png">
   
-      
+ #### `filename`
  
-  
+ - Não é obrigatorio, mas é bom colocar pois esse nome vai ser usado para consumi-lo.
+      
+ #### `exposes`
+ 
+  - Server para expor os modulos para outras aplicações. No lugar da chave é colocado o nome que ele vai ser chamado quando ele for consumido, no valor coloca o caminho para chegar nele na sua aplicação. 
+   
+ #### `remotes`
+ 
+ - É usado para mostrar o que vai ser consumido nesse micro-frontend. Então na chave você passa o nome do module que vai ser consumido e no valor o caminho para chegar nele.
+ 
+ #### `shared`
+
+ - É para listar as dependencias que estão no `package.json`.
+ 
+ 
+ ## Como consumir as informações que foram compartilhadas pelo Module Federation?
+ 
+ 
   
   
