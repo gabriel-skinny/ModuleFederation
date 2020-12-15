@@ -30,7 +30,7 @@
    
  #### `remotes`
  
- - É usado para mostrar o que vai ser consumido nesse micro-frontend. Então na chave você passa o nome do module que vai ser consumido e no valor o caminho para chegar nele.
+ - É usado para mostrar o que vai ser consumido nesse micro-frontend. Então na chave você passa o nome do module que vai ser consumido e no valor voce passa onde esta sendo compartilhado esse valor.
  
  #### `shared`
 
@@ -39,6 +39,10 @@
  
  ## Como consumir as informações que foram compartilhadas pelo Module Federation?
  
+ - Primeiro tem que definir o module que vai ser consumido no `remotes` nas configurações do `webpack.config.js` que ja foi explicado anteriormente. Agora
+ voce entra no arquivo que você deseja consumir o module e usa a função. 
  
+  Exemplo do `webpack.config.js`: 
+  
   
   
