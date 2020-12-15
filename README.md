@@ -17,8 +17,18 @@
   - Para compartilhas informações dentro desse arquivos você tem que extrair o moduleFederationplugin. Apos isso voce pode istanciar a classe moduleFederationplugin e passar as configurações dejesadas como argumentos.
   
   Exemplo: 
+  ```
+new ModuleFederationPlugin({
+    name: 'auth',
+    filename: 'remoteEntry.js',
+    exposes: {
+      './routes': './src/router/routes',
+      './PrivateRoute': './src/router/PrivateRoute',
+      './AuthProvider': './src/providers/AuthProvider',
+    }, 
+    ```
   
-      <img />
+      
  
   
   
