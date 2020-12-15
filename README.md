@@ -4,7 +4,7 @@
 
 ## :question: O que é module federation?
 
-- É um jeito de compartilhar aplicações entre si de uma forma que a aplicação final não tem todas as dependêcias, cada uma das pequenas apicações tem suas proprias dependêcias. Essas aplicações tambem são conhecidas como micro-frontends.
+- É um jeito de compartilhar informações de aplicações entre si de uma forma que a aplicação final não tem todas as dependêcias, cada uma das pequenas apicações tem suas proprias dependêcias. Essas aplicações tambem são conhecidas como micro-frontends.
 
 ## :information_source: Sobre o projeto
 
@@ -26,7 +26,7 @@
       
  #### `exposes`
  
-  - Server para expor os modulos para outras aplicações. No lugar da chave é colocado o nome que ele vai ser chamado quando ele for consumido, no valor coloca o caminho para chegar nele na sua aplicação. 
+  - Serve para expor os modulos para outras aplicações. No lugar da chave é colocado o nome que ele vai ser chamado quando ele for consumido, no valor coloca o caminho para chegar nele na sua aplicação. 
    
  #### `remotes`
  
