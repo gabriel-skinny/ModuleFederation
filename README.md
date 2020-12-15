@@ -4,7 +4,7 @@
 
 ## :question: O que é module federation?
 
-- É um jeito de compartilhar informações de aplicações entre si de uma forma que a aplicação final não tem todas as dependêcias, cada uma das pequenas apicações tem suas proprias dependêcias. Essas aplicações tambem são conhecidas como micro-frontends.
+- É um jeito de compartilhar informações entre aplicações de uma forma que cada a tem todas suas proprias dependêcias. Essas aplicações tambem são conhecidas como micro-frontends.
 
 ## :information_source: Sobre o projeto
 
