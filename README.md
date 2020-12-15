@@ -10,6 +10,16 @@
 
   - O projeto possui 3 micro-frontends: Pokemon, Auth e Data. Cada um deles tem sua responsabilidade, no qual o micro front-end de Pokemon faz uma lista do pokemons, o auth cuida da parte de autenticação e o data fornece as informações que são coletadas da api e distribui atraves do context api.
   
-## Como compartilhar informações para outras aplicações
+## Como compartilhar informações para outras aplicações?
 
+  - Todo micro-frontend tem suas proprias dependencias e seu arquivo `webpack.config.js`, e nesse arquivos que vão ser definidos em quais informações vão ser compartilhadas e recebidas de outros micro-frontends.
+  
+  - Para compartilhas informações dentro desse arquivos você tem que extrair o moduleFederationplugin. Apos isso voce pode istanciar a classe moduleFederationplugin e passar as configurações dejesadas como argumentos.
+  
+  Exemplo: 
+  
+      <img />
+ 
+  
+  
   
